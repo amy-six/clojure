@@ -6,7 +6,7 @@ Clojure library for working with User-Agent strings.
 
 User-Agent strings are complicated, stupid, and broken, and you should always
 use client-side feature detection instead of trying to determine what browser
-the client is using. [1][1][2][2][3][3]
+the client is using. [1](#reference_1) [2](#reference_2) [3](#reference_3)
 
 That said, sometimes you gotta do what you gotta do. **Amy Six** is here to help.
 
@@ -41,9 +41,13 @@ first, and then call `ua/family` etc. on the resulting map.
 	#'user/browser
 	=> (ua/family browser)
 	"Internet Explorer"
+	
+## Resources
+
+Many of the test cases (and matchers) were derived from [UserAgentString.com](http://www.useragentstring.com/).
 
 ## References
 
-[1]: http://webaim.org/blog/user-agent-string-history/ "History of the browser user-agent string"
-[2]: https://msdn.microsoft.com/en-us/library/ms537503(v=vs.85).aspx "Understanding user-agent strings"
-[3]: http://stackoverflow.com/search?q=user+agent+string "Stack Overflow"
+<a name="reference_1">[History of the browser user-agent string](http://webaim.org/blog/user-agent-string-history/)</a>
+<a name="reference_2">[Understanding user-agent strings](https://msdn.microsoft.com/en-us/library/ms537503(v=vs.85).aspx)</a>
+<a name="reference_3">[Stack Overflow](http://stackoverflow.com/search?q=user+agent+string)</a>
