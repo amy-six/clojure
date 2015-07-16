@@ -4,9 +4,17 @@
 ;; Special thanks to http://useragentstring.com/ for listings of common
 ;; user agent strings and their breakdowns.
 
-(defprotocol UserAgent)
+(defprotocol UserAgent
+  (family [this] "The browser family; e.g. \"Internet Explorer\", \"Chrome\"..."))
 
-(defn components
-  "Breaks the user agent string into a list of component strings."
+(defn parse
   [user-agent]
-  nil)
+  {})
+
+;(extend String
+;  UserAgent
+;  (family [this] (family (parse this))))
+
+;(extend ILookup
+;  UserAgent
+;  (family [this] (:family this)))
