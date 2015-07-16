@@ -48,6 +48,6 @@ Many of the test cases (and matchers) were derived from [UserAgentString.com](ht
 
 ## References
 
-<a name="reference_1">[History of the browser user-agent string](http://webaim.org/blog/user-agent-string-history/)</a>  
-<a name="reference_2">[Understanding user-agent strings](https://msdn.microsoft.com/en-us/library/ms537503(v=vs.85).aspx)</a>  
-<a name="reference_3">[Stack Overflow](http://stackoverflow.com/search?q=user+agent+string)</a>  
+<a name="reference_1">[1] [History of the browser user-agent string](http://webaim.org/blog/user-agent-string-history/)</a>  
+<a name="reference_2">[2] [Understanding user-agent strings](https://msdn.microsoft.com/en-us/library/ms537503(v=vs.85).aspx)</a>  
+<a name="reference_3">[3] [Stack Overflow](http://stackoverflow.com/search?q=user+agent+string)</a>  
